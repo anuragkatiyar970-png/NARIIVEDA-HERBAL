@@ -1,0 +1,1294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NARIIVEDA | Premium Herbal Wellness</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#FFF5F8;
+color:#333;
+overflow-x:hidden;
+}
+
+/* HEADER */
+
+header{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:linear-gradient(90deg,#E91E63,#FF69B4);
+
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+z-index:999;
+
+}
+
+.logo{
+
+font-size:32px;
+font-weight:800;
+letter-spacing:1px;
+color:white;
+
+}
+
+nav a{
+
+text-decoration:none;
+color:white;
+margin-left:30px;
+font-size:16px;
+font-weight:600;
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#FFE6EF;
+
+}
+
+/* HERO */
+
+.hero{
+
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+padding:0 8%;
+
+background:
+
+linear-gradient(rgba(233,30,99,.45),rgba(194,24,91,.45)),
+
+url("https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=1600");
+
+background-size:cover;
+background-position:center;
+
+color:white;
+
+}
+
+.hero h1{
+
+font-size:65px;
+font-weight:800;
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:20px;
+max-width:800px;
+margin:auto;
+line-height:35px;
+
+}
+
+/* BUTTON */
+
+.btn{
+
+display:inline-block;
+
+margin-top:35px;
+
+padding:16px 40px;
+
+background:white;
+
+color:#E91E63;
+
+text-decoration:none;
+
+font-weight:700;
+
+border-radius:50px;
+
+transition:.3s;
+
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+.btn:hover{
+
+background:#E91E63;
+
+color:white;
+
+transform:translateY(-5px);
+
+}
+
+/* SECTION */
+
+section{
+
+padding:90px 8%;
+
+}
+
+.title{
+
+text-align:center;
+
+font-size:42px;
+
+color:#E91E63;
+
+margin-bottom:60px;
+
+font-weight:700;
+
+}
+
+/* CARD */
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card h3{
+
+margin-bottom:15px;
+
+color:#E91E63;
+
+}
+
+/* PRODUCT */
+
+.product{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:60px;
+
+align-items:center;
+
+}
+
+.product img{
+
+width:100%;
+
+border-radius:25px;
+
+}
+
+.price{
+
+font-size:40px;
+
+font-weight:700;
+
+color:#E91E63;
+
+margin:25px 0;
+
+}
+
+/* FOOTER */
+
+footer{
+
+background:#C2185B;
+
+color:white;
+
+padding:70px 8%;
+
+text-align:center;
+
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+
+position:fixed;
+
+right:25px;
+
+bottom:25px;
+
+width:60px;
+
+height:60px;
+
+border-radius:50%;
+
+background:#25D366;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:28px;
+
+color:white;
+
+text-decoration:none;
+
+box-shadow:0 10px 20px rgba(0,0,0,.25);
+
+z-index:9999;
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.product{
+
+grid-template-columns:1fr;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Naari Veda</div>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#">Products</a>
+
+<a href="#">About</a>
+
+<a href="#">Reviews</a>
+
+<a href="#">Contact</a>
+
+</nav>
+
+</header><!-- ================= HERO SECTION ================= -->
+
+<section class="hero">
+
+    <div>
+
+        <h1>Nature's Wellness,<br>Crafted for You</h1>
+
+        <p>
+            Discover premium herbal wellness products made with carefully selected botanical ingredients,
+            designed to complement a healthy lifestyle.
+        </p>
+
+        <a href="#products" class="btn">Shop Now</a>
+
+    </div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section>
+
+    <h2 class="title">Why Choose Naari Veda</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <h3>🌿 Herbal Ingredients</h3>
+
+            <p>
+                Carefully selected botanical ingredients with a focus on quality and authenticity.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🏆 Premium Quality</h3>
+
+            <p>
+                Every product is prepared with attention to quality standards and customer satisfaction.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>🚚 Fast Delivery</h3>
+
+            <p>
+                Reliable delivery across India with secure packaging.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>💖 Customer Care</h3>
+
+            <p>
+                Dedicated support to help you with orders and product information.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FEATURE HIGHLIGHTS ================= -->
+
+<section style="background:#FFF0F5;">
+
+    <h2 class="title">Our Promise</h2>
+
+    <div class="cards">
+
+        <div class="card" style="text-align:center;">
+
+            <div style="font-size:55px;">🌸</div>
+
+            <h3>Inspired by Nature</h3>
+
+            <p>
+                Premium herbal wellness products crafted with care.
+            </p>
+
+        </div>
+
+        <div class="card" style="text-align:center;">
+
+            <div style="font-size:55px;">✨</div>
+
+            <h3>Elegant Experience</h3>
+
+            <p>
+                Modern design, premium packaging and smooth shopping experience.
+            </p>
+
+        </div>
+
+        <div class="card" style="text-align:center;">
+
+            <div style="font-size:55px;">💚</div>
+
+            <h3>Trusted Quality</h3>
+
+            <p>
+                Quality-focused manufacturing and customer-first approach.
+            </p>
+
+        </div>
+
+    </div>
+
+</section><!-- ================= PRODUCTS SECTION ================= -->
+
+<section id="products">
+
+    <h2 class="title">Our Premium Products</h2>
+
+    <div class="cards">
+
+        <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1584017911766-d451b3d0e843?w=700"
+        style="width:100%;border-radius:15px;">
+
+            <h3 style="margin-top:20px;">Herbal Wellness Capsules</h3>
+
+            <p>
+                Premium herbal wellness formula crafted with carefully selected botanical ingredients.
+            </p>
+
+            <div class="price">₹999</div>
+
+            <a href="#" class="btn">Order Now</a>
+
+        </div>
+
+        <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=700"
+        style="width:100%;border-radius:15px;">
+
+            <h3 style="margin-top:20px;">Herbal Massage Oil</h3>
+
+            <p>
+                Premium herbal massage oil designed for external use as part of your wellness routine.
+            </p>
+
+            <div class="price">₹699</div>
+
+            <a href="#" class="btn">Order Now</a>
+
+        </div>
+
+        <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=700"
+        style="width:100%;border-radius:15px;">
+
+            <h3 style="margin-top:20px;">Herbal Tea</h3>
+
+            <p>
+                Refreshing herbal tea made from carefully selected botanical ingredients.
+            </p>
+
+            <div class="price">₹499</div>
+
+            <a href="#" class="btn">Order Now</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT SECTION ================= -->
+
+<section style="background:#FFF0F5;">
+
+    <div class="product">
+
+        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=900">
+
+        <div>
+
+            <h2 style="font-size:42px;color:#E91E63;margin-bottom:25px;">
+                About Naari Veda
+            </h2>
+
+            <p style="line-height:32px;font-size:18px;">
+
+                Naari Veda is a premium herbal wellness brand inspired by nature. We focus on carefully selected botanical ingredients, elegant product presentation, and a customer-first experience.
+
+            </p>
+
+            <br>
+
+            <ul style="line-height:38px;font-size:18px;">
+
+                <li>🌿 Carefully Selected Botanical Ingredients</li>
+
+                <li>🏆 Premium Quality Standards</li>
+
+                <li>🚚 Delivery Across India</li>
+
+                <li>💖 Customer Support</li>
+
+            </ul>
+
+            <a href="#" class="btn">Learn More</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= STATS SECTION ================= -->
+
+<section style="background:#E91E63;color:white;">
+
+    <h2 style="text-align:center;font-size:42px;margin-bottom:60px;">
+        Naari Veda in Numbers
+    </h2>
+
+    <div class="cards">
+
+        <div class="card" style="text-align:center;background:white;">
+            <h1 style="font-size:50px;color:#E91E63;">10K+</h1>
+            <p>Happy Customers</p>
+        </div>
+
+        <div class="card" style="text-align:center;background:white;">
+            <h1 style="font-size:50px;color:#E91E63;">100%</h1>
+            <p>Quality Focused</p>
+        </div>
+
+        <div class="card" style="text-align:center;background:white;">
+            <h1 style="font-size:50px;color:#E91E63;">24×7</h1>
+            <p>Customer Support</p>
+        </div>
+
+        <div class="card" style="text-align:center;background:white;">
+            <h1 style="font-size:50px;color:#E91E63;">India</h1>
+            <p>Nationwide Delivery</p>
+        </div>
+
+    </div>
+
+</section><!-- ================= CUSTOMER REVIEWS ================= -->
+
+<section id="reviews">
+
+    <h2 class="title">Customer Reviews</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>
+                Beautiful website, premium packaging and smooth ordering experience.
+            </p>
+            <br>
+            <strong>— Priya S.</strong>
+        </div>
+
+        <div class="card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>
+                Fast delivery and excellent customer support. Highly recommended.
+            </p>
+            <br>
+            <strong>— Neha K.</strong>
+        </div>
+
+        <div class="card">
+            <h3>⭐⭐⭐⭐⭐</h3>
+            <p>
+                Premium branding and professional service. Loved the experience.
+            </p>
+            <br>
+            <strong>— Anjali R.</strong>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+
+<section style="background:#FFF0F5;">
+
+<h2 class="title">Frequently Asked Questions</h2>
+
+<div class="card">
+
+<h3>🌿 Are your products herbal?</h3>
+<p>
+Our products are formulated with herbal ingredients. Please read the product label for complete information and directions.
+</p>
+
+<hr style="margin:25px 0;">
+
+<h3>🚚 Do you deliver across India?</h3>
+<p>
+Yes, delivery is available across India.
+</p>
+
+<hr style="margin:25px 0;">
+
+<h3>💳 Which payment methods are accepted?</h3>
+<p>
+UPI, Credit Card, Debit Card, Net Banking and Cash on Delivery (where available).
+</p>
+
+<hr style="margin:25px 0;">
+
+<h3>☎ How can I contact support?</h3>
+<p>
+You can contact us by WhatsApp, Email or Phone.
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section style="background:#E91E63;color:white;text-align:center;">
+
+<h2 style="font-size:42px;">
+Join Naari Veda
+</h2>
+
+<p style="margin-top:20px;font-size:20px;">
+Subscribe to receive updates, offers and wellness news.
+</p>
+
+<input
+type="email"
+placeholder="Enter Your Email"
+style="
+margin-top:30px;
+padding:18px;
+width:320px;
+max-width:90%;
+border:none;
+border-radius:40px;
+font-size:16px;
+outline:none;
+">
+
+<br>
+
+<a href="#" class="btn">
+Subscribe
+</a>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+<h2 class="title">Contact Us</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>📞 Phone</h3>
+<p>+91 XXXXX XXXXX</p>
+</div>
+
+<div class="card">
+<h3>📧 Email</h3>
+<p>info@naariveda.com</p>
+</div>
+
+<div class="card">
+<h3>📍 Address</h3>
+<p>Gurugram, Haryana, India</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= SOCIAL ================= -->
+
+<section style="background:#FFF0F5;">
+
+<h2 class="title">Follow Us</h2>
+
+<div class="cards">
+
+<div class="card" style="text-align:center;">
+📷 Instagram
+</div>
+
+<div class="card" style="text-align:center;">
+👍 Facebook
+</div>
+
+<div class="card" style="text-align:center;">
+▶ YouTube
+</div>
+
+<div class="card" style="text-align:center;">
+💬 WhatsApp
+</div>
+
+</div>
+
+</section><!-- ================= PREMIUM FOOTER ================= -->
+
+<footer>
+
+<div style="
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:40px;
+text-align:left;
+">
+
+<div>
+
+<h2 style="margin-bottom:20px;">
+Naari Veda
+</h2>
+
+<p style="line-height:28px;">
+Premium herbal wellness brand inspired by nature and quality. We focus on elegant presentation, trusted service and customer satisfaction.
+</p>
+
+</div>
+
+<div>
+
+<h3 style="margin-bottom:20px;">Quick Links</h3>
+
+<p><a href="#" style="color:white;text-decoration:none;">Home</a></p>
+<p><a href="#products" style="color:white;text-decoration:none;">Products</a></p>
+<p><a href="#reviews" style="color:white;text-decoration:none;">Reviews</a></p>
+<p><a href="#contact" style="color:white;text-decoration:none;">Contact</a></p>
+
+</div>
+
+<div>
+
+<h3 style="margin-bottom:20px;">Customer Support</h3>
+
+<p>📞 +91 XXXXX XXXXX</p>
+
+<p>📧 info@naariveda.com</p>
+
+<p>📍 Gurugram, Haryana, India</p>
+
+</div>
+
+<div>
+
+<h3 style="margin-bottom:20px;">Follow Us</h3>
+
+<p>📷 Instagram</p>
+
+<p>👍 Facebook</p>
+
+<p>▶ YouTube</p>
+
+<p>💬 WhatsApp</p>
+
+</div>
+
+</div>
+
+<hr style="margin:40px 0;border:1px solid rgba(255,255,255,.2);">
+
+<p style="text-align:center;">
+
+© 2026 Naari Veda. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<!-- ================= WHATSAPP BUTTON ================= -->
+
+<a href="https://wa.me/91XXXXXXXXXX" class="whatsapp">
+💬
+</a>
+
+<!-- ================= BACK TO TOP ================= -->
+
+<button
+onclick="window.scrollTo({top:0,behavior:'smooth'})"
+
+style="
+position:fixed;
+bottom:100px;
+right:25px;
+width:55px;
+height:55px;
+border:none;
+border-radius:50%;
+background:#E91E63;
+color:white;
+font-size:22px;
+cursor:pointer;
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+z-index:999;
+">
+
+↑
+
+</button>
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+
+anchor.addEventListener('click',function(e){
+
+const id=this.getAttribute('href');
+
+if(id!=="#"){
+
+e.preventDefault();
+
+document.querySelector(id).scrollIntoView({
+
+behavior:'smooth'
+
+});
+
+}
+
+});
+
+});
+
+</script>
+
+<!-- ================= LUXURY OFFER BAR ================= -->
+
+<section style="
+background:linear-gradient(90deg,#C2185B,#E91E63);
+color:white;
+padding:15px;
+text-align:center;
+font-weight:600;
+">
+
+    🎉 Free Shipping on Orders Above ₹999 | Secure Payments | Premium Herbal Wellness
+
+</section>
+
+<!-- ================= SEARCH SECTION ================= -->
+
+<section style="padding:60px 8%;background:#FFF5F8;">
+
+    <h2 class="title">Find Your Product</h2>
+
+    <div style="max-width:600px;margin:auto;">
+
+        <input
+id="searchBox"
+type="text"
+placeholder="Search Products..."
+style="
+width:100%;
+padding:18px;
+border-radius:40px;
+border:2px solid #E91E63;
+font-size:18px;
+outline:none;
+">
+
+    </div>
+
+</section>
+
+<!-- ================= TRUST BADGES ================= -->
+
+<section style="padding:70px 8%;background:white;">
+
+    <div class="cards">
+
+        <div class="card" style="text-align:center;">
+            <h2>🚚</h2>
+            <h3>Fast Delivery</h3>
+            <p>Reliable shipping across India.</p>
+        </div>
+
+        <div class="card" style="text-align:center;">
+            <h2>🔒</h2>
+            <h3>Secure Payment</h3>
+            <p>Safe and secure checkout experience.</p>
+        </div>
+
+        <div class="card" style="text-align:center;">
+            <h2>🌿</h2>
+            <h3>Herbal Quality</h3>
+            <p>Made with carefully selected botanical ingredients.</p>
+        </div>
+
+        <div class="card" style="text-align:center;">
+            <h2>💖</h2>
+            <h3>Customer Care</h3>
+            <p>Friendly support for your questions and orders.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SIMPLE SEARCH SCRIPT ================= -->
+
+<script>
+    const search=document.getElementById("searchBox");
+
+search.addEventListener("keyup",function(){
+
+let value=this.value.toLowerCase();
+
+document.querySelectorAll(".card").forEach(card=>{
+
+card.style.display=
+card.innerText.toLowerCase().includes(value)
+? "block"
+: "none";
+
+});
+
+});
+
+</script>... Part 6
+
+</script>
+
+<!-- YAHAN SE PART 7 START -->
+
+<div id="cartIcon">
+    ...<!-- ================= CHECKOUT ================= -->
+    
+    <section style="padding:90px 8%;background:#FFF0F5;">
+    
+        <h2 class="title">Checkout</h2>
+    
+        <div style="
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+    ">
+    
+            <form>
+    
+                <input type="text" placeholder="Full Name" required
+    style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ddd;border-radius:10px;">
+    
+                <input type="email" placeholder="Email Address" required
+    style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ddd;border-radius:10px;">
+    
+                <input type="tel" placeholder="Phone Number" required
+    style="width:100%;padding:15px;margin-bottom:20px;border:1px solid #ddd;border-radius:10px;">
+    
+                <textarea placeholder="Delivery Address"
+    style="width:100%;height:120px;padding:15px;border:1px solid #ddd;border-radius:10px;"></textarea>
+    
+                <br><br>
+    
+                <button class="btn" type="submit">
+    Place Order
+    </button>
+    
+            </form>
+    
+        </div>
+    
+    </section>
+    
+    <!-- ================= ORDER SUMMARY ================= -->
+    
+    <section style="background:white;padding:80px 8%;">
+    
+        <h2 class="title">Order Summary</h2>
+    
+        <div class="card">
+    
+            <p>✔ Premium Herbal Product</p>
+            <p>✔ Secure Packaging</p>
+            <p>✔ Pan India Delivery</p>
+    
+            <h2 style="margin-top:25px;color:#E91E63;">
+                Total : ₹999
+            </h2>
+    
+        </div>
+    
+    </section>
+    
+    <!-- ================= NEWSLETTER POPUP ================= -->
+    
+    <div id="popup" style="
+    display:none;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+    z-index:99999;
+    text-align:center;
+    ">
+    
+        <h2 style="color:#E91E63;">
+            🎁 Welcome
+        </h2>
+    
+        <p style="margin:20px 0;">
+            Subscribe and receive exclusive offers.
+        </p>
+    
+        <button
+    onclick="document.getElementById('popup').style.display='none'"
+    class="btn">
+    Close
+    </button>
+    
+    </div>
+    
+    <script>
+        setTimeout(function(){
+    
+    document.getElementById("popup").style.display="block";
+    
+    },5000);
+    
+    </script>
+    
+    <!-- ================= PAGE LOADER ================= -->
+    
+    <div id="loader" style="
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-weight:bold;
+    color:#E91E63;
+    z-index:999999;
+    ">
+    
+        Naari Veda
+    
+    </div>
+    
+    <script>
+        window.onload=function(){
+    
+    document.getElementById("loader").style.display="none";
+    
+    }
+    
+    </script><!-- ================= DARK MODE BUTTON ================= -->
+
+<button id="darkModeBtn"
+style="
+position:fixed;
+left:25px;
+bottom:25px;
+width:60px;
+height:60px;
+border:none;
+border-radius:50%;
+background:#E91E63;
+color:white;
+font-size:24px;
+cursor:pointer;
+box-shadow:0 10px 20px rgba(0,0,0,.25);
+z-index:9999;
+">
+🌙
+</button>
+
+<script>
+
+let dark=false;
+
+document.getElementById("darkModeBtn").onclick=function(){
+
+if(!dark){
+
+document.body.style.background="#1c1c1c";
+document.body.style.color="white";
+
+dark=true;
+
+}else{
+
+document.body.style.background="#FFF5F8";
+document.body.style.color="#333";
+
+dark=false;
+
+}
+
+}
+
+</script>
+
+<!-- ================= LOGIN POPUP ================= -->
+
+<section style="padding:80px 8%;background:white;">
+
+<h2 class="title">Member Login</h2>
+
+<div style="
+max-width:500px;
+margin:auto;
+background:#FFF5F8;
+padding:40px;
+border-radius:20px;
+">
+
+<input type="email"
+placeholder="Email"
+style="
+width:100%;
+padding:15px;
+margin-bottom:20px;
+border-radius:10px;
+border:1px solid #ddd;
+">
+
+<input type="password"
+placeholder="Password"
+style="
+width:100%;
+padding:15px;
+margin-bottom:20px;
+border-radius:10px;
+border:1px solid #ddd;
+">
+
+<button class="btn" style="width:100%;">
+Login
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= WISHLIST ================= -->
+
+<section style="background:#FFF0F5;padding:80px 8%;">
+
+<h2 class="title">Wishlist</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>❤️ Herbal Wellness Capsules</h3>
+
+<p>
+Save your favourite products here.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>❤️ Herbal Massage Oil</h3>
+
+<p>
+Quickly access products you love.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PRODUCT RATING ================= -->
+
+<section style="padding:80px 8%;">
+
+<h2 class="title">
+Rate Your Experience
+</h2>
+
+<div style="text-align:center;font-size:45px;cursor:pointer;">
+
+<span onclick="rate(1)">⭐</span>
+
+<span onclick="rate(2)">⭐</span>
+
+<span onclick="rate(3)">⭐</span>
+
+<span onclick="rate(4)">⭐</span>
+
+<span onclick="rate(5)">⭐</span>
+
+</div>
+
+<p
+id="ratingText"
+style="
+text-align:center;
+margin-top:20px;
+font-size:20px;
+font-weight:bold;
+">
+No Rating Yet
+</p>
+
+</section>
+
+<script>
+
+function rate(stars){
+
+document.getElementById("ratingText").innerHTML=
+"Thank You! You rated us "+stars+" ⭐";
+
+}
+
+</script>
